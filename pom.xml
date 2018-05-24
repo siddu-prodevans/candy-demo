@@ -3,4 +3,14 @@
   <groupId>candy</groupId>
   <artifactId>candy</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+   <distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <url>http://nexus:8081/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus</id>
+            <url>http://nexus:8081/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
